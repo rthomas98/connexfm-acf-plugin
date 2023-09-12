@@ -27,8 +27,7 @@ function connexfm_acf_show_admin( $show ) {
 		// Our list of allowed email domains.
 		// Be sure to replace with your email domain.
 		$allowed_email_domains = array(
-			'advancedcustomfields.com',
-			'wpengine.com',
+			'empuls3.com',
 		);
 
 		// Make sure we have a WP_User object and email address.

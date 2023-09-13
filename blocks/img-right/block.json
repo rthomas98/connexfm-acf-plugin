@@ -1,0 +1,17 @@
+{
+  "name": "acf/img-right",
+  "title": "Section with image on the right",
+  "description": "Display a section with an image on the right and text on the left.",
+  "category": "demo-acf-blocks",
+  "icon": "",
+  "keywords": ["section", "image", "text", "right"],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "template.php"
+  },
+  "supports": {
+    "align": false,
+    "anchor": true,
+    "mode": false
+  }
+}

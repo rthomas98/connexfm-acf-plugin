@@ -1,0 +1,17 @@
+{
+  "name": "acf/tabs-with-img",
+  "title": "Tabs with Image",
+  "description": "Tabs with Image",
+  "category": "demo-acf-blocks",
+  "icon": "",
+  "keywords": ["tabs", "image"],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "template.php"
+  },
+  "supports": {
+    "align": false,
+    "anchor": true,
+    "mode": false
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "acf/four-tabs-with-icon",
+  "title": "Four Tabs with Icon",
+  "description": "Display a four tabs with icon",
+  "category": "demo-acf-blocks",
+  "icon": "",
+  "keywords": ["tabs", "icon", "four tabs with icon"],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "template.php"
+  },
+  "supports": {
+    "align": false,
+    "anchor": true,
+    "mode": false
+  }
+}

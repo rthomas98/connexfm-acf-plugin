@@ -1,0 +1,17 @@
+{
+  "name": "acf/black-cta",
+  "title": "Black CTA",
+  "description": "Display a black call to action.",
+  "category": "demo-acf-blocks",
+  "icon": "",
+  "keywords": ["cta", "call to action", "black"],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "template.php"
+  },
+  "supports": {
+    "align": false,
+    "anchor": true,
+    "mode": false
+  }
+}

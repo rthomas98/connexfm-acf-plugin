@@ -13,10 +13,5 @@
         "align": false,
         "anchor": true,
         "mode": false
-    },
-    "example": {
-        "attributes": {
-            "connexfm_acf_phone_number": "555 123-4567"
-        }
     }
 }

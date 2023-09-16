@@ -1,0 +1,20 @@
+.home-slider {
+    width: 100%;
+    position: relative;
+}
+
+.home-slider h1 {
+    color: white;
+}
+
+.home-slider p {
+    color: white;
+}
+
+.hero-banner {
+    background: linear-gradient(270deg, #82CDBF 0%, #0079C1 100%);
+}
+
+.hero-banner h2 {
+    color: white;
+}

@@ -3,6 +3,7 @@
   "title": "Tabs with Image",
   "description": "Tabs with Image",
   "category": "demo-acf-blocks",
+  "style": [ "file:./tabs-with-img.css"],
   "icon": "",
   "keywords": ["tabs", "image"],
   "acf": {
@@ -10,7 +11,7 @@
     "renderTemplate": "template.php"
   },
   "supports": {
-    "align": false,
+    "align": true,
     "anchor": true,
     "mode": false
   }

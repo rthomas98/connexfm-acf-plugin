@@ -7,7 +7,9 @@
   "keywords": ["section", "image", "text", "right"],
   "acf": {
     "mode": "preview",
-    "renderTemplate": "template.php"
+    "renderTemplate": "template.php",
+    "renderCss": "style.css",
+    "renderJs": "script.js"
   },
   "supports": {
     "align": false,

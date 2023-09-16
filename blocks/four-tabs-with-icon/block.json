@@ -3,6 +3,7 @@
   "title": "Four Tabs with Icon",
   "description": "Display a four tabs with icon",
   "category": "demo-acf-blocks",
+  "style": [ "file:./four-tabs-with-icon.css"],
   "icon": "",
   "keywords": ["tabs", "icon", "four tabs with icon"],
   "acf": {

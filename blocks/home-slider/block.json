@@ -2,12 +2,14 @@
   "name": "acf/home-slider",
   "title": "Home Slider",
   "description": "Display a slider of images with a call to action button.",
+  "style": [ "file:./home-slider.css"],
   "category": "demo-acf-blocks",
   "icon": "",
   "keywords": ["slider", "home", "hero", "image", "cta", "button", "link"],
   "acf": {
     "mode": "preview",
-    "renderTemplate": "template.php"
+    "renderTemplate": "template.php",
+    "renderCss": "style.css"
   },
   "supports": {
     "align": false,

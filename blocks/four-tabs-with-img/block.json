@@ -1,0 +1,18 @@
+{
+  "name": "acf/four-tabs-with-img",
+  "title": "Four Tabs with Image",
+  "description": "Display four tabs with image",
+  "style": [ "file:./four-tabs-with-img.css"],
+  "category": "demo-acf-blocks",
+  "icon": "",
+  "keywords": ["tabs", "four", "image"],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "template.php"
+  },
+  "supports": {
+    "align": true,
+    "anchor": true,
+    "mode": false
+  }
+}

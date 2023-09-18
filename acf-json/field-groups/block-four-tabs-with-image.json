@@ -36,7 +36,7 @@
                 "class": "",
                 "id": ""
             },
-            "layout": "table",
+            "layout": "block",
             "pagination": 0,
             "min": 0,
             "max": 4,
@@ -181,7 +181,7 @@
             {
                 "param": "block",
                 "operator": "==",
-                "value": "acf\/tabs-with-img"
+                "value": "acf\/four-tabs-with-img"
             }
         ]
     ],
@@ -194,5 +194,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1694619943
+    "modified": 1695057560
 }

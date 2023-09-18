@@ -1,7 +1,33 @@
 .tabs-with-img {
-
+    background: linear-gradient(180deg, #82CDBF 0%, #0079C1 100%);
+    color: white;
 }
 
 .tabs-with-img h3 {
     font-size: 1.3rem;
+}
+
+.tabs-with-img h2 {
+    color: white;
+}
+
+.tabs-holder {
+    background-color: white;
+    border-radius: 20px 20px 0 0;
+}
+
+.w-tab h3 {
+    color: black;
+    font-size: 18px;
+}
+
+.w-tab p {
+    color: #414142;
+}
+
+.bottom-img {
+    width: 100%;
+    height: 540px;
+    object-fit: cover;
+    object-position: center;
 }

@@ -1,0 +1,30 @@
+.four-tabs-with-img {
+    background: url(../../imgs/dots-bg.png) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+.tab {
+    border-radius: 20px;
+    border: 1px solid #D9D9D9;
+}
+
+.tab img {
+    width: 260px;
+    height: 225px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.tab h3 {
+    color: #068774;
+}
+
+@media (max-width: 768px) {
+    .tab img {
+        width: 100%;
+        height: auto;
+    }
+}

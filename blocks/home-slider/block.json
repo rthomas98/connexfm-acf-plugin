@@ -12,7 +12,7 @@
     "renderCss": "style.css"
   },
   "supports": {
-    "align": false,
+    "align": true,
     "anchor": true,
     "mode": false
   }

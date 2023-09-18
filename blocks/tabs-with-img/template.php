@@ -32,35 +32,40 @@ if ( ! empty( $block['align'] ) ) {
     }
 </style>
 
-<section id="<?php echo esc_attr( $id ); ?>" class="<?php echo esc_attr( $classes ); ?> tabs-with-img">
+<section id="<?php echo esc_attr( $id ); ?>" class="<?php echo esc_attr( $classes ); ?> tabs-with-img pt-5">
     <div class="container">
-        <div class="row">
+        <div class="row mb-4">
             <div class="col text-center">
                 <h2 class="display-4">
                     <?php the_field( 'header' ); ?>
                 </h2>
                 <p class="lead">
-                    <?php the_field( 'content' ); ?>
+                    <?php the_field( 'sub_title' ); ?>
                 </p>
             </div>
         </div>
 
         <?php if ( have_rows( 'tabs' ) ) : ?>
-        <div class="row">
+        <div class="row tabs-holder p-5">
             <?php while ( have_rows( 'tabs' ) ) : the_row(); ?>
                 <div class="col-sm-12 col-md-12 col-lg-3 mb-4 mb-sm-4 mb-md-4 mb-lg-0">
                     <div class="d-flex align-items-center">
-                        <div class="flex-shrink-0">
+                        <div class="w-tab">
+                            <div class="flex-shrink-0">
                             <span class="icon-holder">
                                 <?php the_sub_field( 'icon' ); ?>
                             </span>
+                            </div>
+                            <h3 class="flex-grow-1 ms-3">
+                                <?php the_sub_field( 'title' ); ?>
+                            </h3>
+                            <p>
+                                <?php the_sub_field( 'tab_content' ); ?>
+                            </p>
                         </div>
-                        <h3 class="flex-grow-1 ms-3">
-                            <?php the_sub_field( 'title' ); ?>
-                        </h3>
                     </div>
                     <p>
-                        <?php the_sub_field( 'content' ); ?>
+
                     </p>
                 </div>
             <?php endwhile; ?>
@@ -68,11 +73,9 @@ if ( ! empty( $block['align'] ) ) {
         <?php else : ?>
             <?php // No rows found ?>
         <?php endif; ?>
-
-
-        <?php $banner_image = get_field( 'banner_image' ); ?>
-        <?php if ( $banner_image ) : ?>
-            <img src="<?php echo esc_url( $banner_image['url'] ); ?>" alt="<?php echo esc_attr( $banner_image['alt'] ); ?>" />
-        <?php endif; ?>
     </div>
+    <?php $banner_image = get_field( 'banner_image' ); ?>
+    <?php if ( $banner_image ) : ?>
+        <img class="bottom-img" src="<?php echo esc_url( $banner_image['url'] ); ?>" alt="<?php echo esc_attr( $banner_image['alt'] ); ?>" />
+    <?php endif; ?>
 </section>

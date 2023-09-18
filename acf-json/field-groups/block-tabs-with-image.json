@@ -3,46 +3,6 @@
     "title": "Block: Tabs With Image",
     "fields": [
         {
-            "key": "field_6501d5eda3e71",
-            "label": "Header",
-            "name": "header",
-            "aria-label": "",
-            "type": "text",
-            "instructions": "",
-            "required": 0,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "default_value": "",
-            "maxlength": "",
-            "placeholder": "",
-            "prepend": "",
-            "append": ""
-        },
-        {
-            "key": "field_6501dbfd815ba",
-            "label": "Content",
-            "name": "content",
-            "aria-label": "",
-            "type": "textarea",
-            "instructions": "",
-            "required": 0,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "default_value": "",
-            "maxlength": "",
-            "rows": "",
-            "placeholder": "",
-            "new_lines": ""
-        },
-        {
             "key": "field_6501dc4d815bb",
             "label": "Tabs",
             "name": "tabs",
@@ -56,7 +16,7 @@
                 "class": "",
                 "id": ""
             },
-            "layout": "table",
+            "layout": "block",
             "pagination": 0,
             "min": 0,
             "max": 6,
@@ -108,8 +68,8 @@
                 },
                 {
                     "key": "field_6501dc63815be",
-                    "label": "Content",
-                    "name": "content",
+                    "label": "Tab Content",
+                    "name": "tab_content",
                     "aria-label": "",
                     "type": "textarea",
                     "instructions": "",
@@ -173,5 +133,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1694813743
+    "modified": 1695046769
 }

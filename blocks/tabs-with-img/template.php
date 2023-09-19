@@ -48,11 +48,11 @@ if ( ! empty( $block['align'] ) ) {
         <?php if ( have_rows( 'tabs' ) ) : ?>
         <div class="row tabs-holder p-5">
             <?php while ( have_rows( 'tabs' ) ) : the_row(); ?>
-                <div class="col-sm-12 col-md-12 col-lg-3 mb-4 mb-sm-4 mb-md-4 mb-lg-0">
+                <div class="col-sm-12 col-md-12 col-lg-4 mb-4 mb-sm-4 mb-md-4 mb-lg-0">
                     <div class="d-flex align-items-center">
                         <div class="w-tab">
                             <div class="flex-shrink-0">
-                            <span class="icon-holder">
+                            <span class="icon-holder ">
                                 <?php the_sub_field( 'icon' ); ?>
                             </span>
                             </div>
